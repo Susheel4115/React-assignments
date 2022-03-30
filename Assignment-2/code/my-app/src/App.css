@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 4rem;
+  margin-left: 32rem;
+  width: 300px;
+  height: 500px;
+  padding: 15px;
+  background-color: rgb(227, 233, 231);
+  box-shadow: 10px 10px 5px rgb(179, 197, 202);
 }
 
-.App-link {
-  color: #61dafb;
+.image1 {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  color: rgb(62, 188, 238);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: -0.5rem;
+}
+
+.location {
+  margin-top: -2.6rem;
+  color: grey;
+}
+.realloc,
+.blood,
+.employeeage {
+  margin-top: -0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bloodgroup,
+.age {
+  margin-top: -0.5rem;
+  color: grey;
 }
