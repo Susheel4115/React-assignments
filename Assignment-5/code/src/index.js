@@ -1,11 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import Postview from "./Postview";
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+
+import App from "./App.js";
+import "./App.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Postview />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

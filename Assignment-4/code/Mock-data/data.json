@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "name": "Siva",
+      "location": "Bengaluru",
+      "likes": 64,
+      "description": "Kick start your career",
+      "PostImage": "https://10xse.academy/wp-content/uploads/2021/01/ADVANCED-BEGINNER-23.png",
+      "date": "3rd,april"
+    },
+    {
+      "name": "Samantha",
+      "location": "Hyderabad",
+      "likes": 10000,
+      "description": "Kick start your career",
+      "PostImage": "https://10xse.academy/wp-content/uploads/2021/01/ADVANCED-BEGINNER-23.png",
+      "date": "3rd,april"
+    },
+    {
+      "name": "Neeraj",
+      "location": "Pune",
+      "likes": 30,
+      "description": "Sample Description",
+      "PostImage": "https://10xse.academy/wp-content/uploads/2021/01/ADVANCED-BEGINNER-23.png",
+      "date": "3rd,april"
+    },
+    {
+      "name": "Rahul",
+      "location": "Hyderabad",
+      "likes": 30,
+      "description": "Sample Description for Post",
+      "PostImage": "https://10xse.academy/wp-content/uploads/2021/01/ADVANCED-BEGINNER-23.png",
+      "date": "3rd,april"
+    }
+  ]
+}

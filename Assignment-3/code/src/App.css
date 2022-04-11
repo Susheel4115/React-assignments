@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.site-container {
+  height: 80%;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 1.5rem;
+  border: 3px solid lightgray;
+}
+
+.btn {
+  margin: 1rem;
+  width: 7rem;
+  background-color: black;
+  color: white;
+  border: 3px solid lightgray;
+  cursor: pointer;
+}
+
+.customerinfo {
+  margin: 1.5rem;
+  gap: 1rem;
+  border: 3px solid lightgray;
+}
+
+.customerinfo p {
+  margin: 1rem;
+}
+
+.row {
+  margin: 1.5rem;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  height: 130px; /* Should be removed. Only for demonstration */
+  background-color: lightgrey;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.product {
+  margin: 1.5rem;
+  background-color: rgb(233, 233, 240);
+  height: 6rem;
+}
+
+.square {
+  width: 2%;
+  padding: 25px;
+}
+
+.product {
+  margin: 1.5rem;
+  display: flex;
+}
+.image {
+  margin: 1rem;
+  width: 5%;
+}
+
+.wrapper {
+  margin-top: -1rem;
+  flex-direction: column;
+}
+
+.arrow2 {
+  margin: 2rem 0 5rem 9rem;
+
+  cursor: pointer;
+}
